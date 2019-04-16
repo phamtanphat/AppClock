@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:textColor="#f20"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:text="Tên công việc"
+        android:id="@+id/textviewTencongviec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#4CAF50"
+        android:text="10 : 10 am"
+        android:layout_margin="10dp"
+        android:layout_below="@id/textviewTencongviec"
+        android:id="@+id/textviewThoigian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ToggleButton
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/toogleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
